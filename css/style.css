@@ -1,0 +1,304 @@
+/* Your custom styles */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/*CSS for welcome.html*/
+
+/*video background*/
+
+ .video-fluid {
+    width: 100%;
+    height: auto;
+    /*opacity: .58;*/
+
+}
+
+/*welcomepage overlay*/
+#welcome-page-overlay {
+	background: rgba(128,128,128,.4);
+    color: #f1f1f1;
+    position: absolute;
+    top:0;
+    left: 0
+    height: auto;
+    width: 100%;
+    padding: 20px;*/
+}
+
+ul > li {
+	list-style: none;
+}
+
+#welcome-font li h1 {
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+#welcome-font li h3 {
+    font-family: 'Satisfy', cursive;
+    font-size: 45px;
+}
+
+#welcome-font li a{
+    font-family: 'Vollkorn', serif;
+}
+
+/*CSS for home.html*/
+#logo {
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	margin: 10px;
+}
+
+#social a{
+	margin: 10px;
+}
+
+#social input{
+	margin: 10px;
+}
+
+#social a img {
+    width: 50px;
+    height: 50px;
+}
+
+#nav-fontstyles li a {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 14px;
+}
+
+#navlogofontsyle span{
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#home-overlay {
+	background: rgba(128,128,128,.4);
+    color: #f1f1f1;
+    position: absolute;
+    top:0;
+    left: 0
+    height: auto;
+    width: 100%;
+    padding: 20px;
+
+}
+#home-caption {
+	margin-top: 80px;
+}
+
+#home-caption li h1 {
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+#home-caption li h3 {
+    font-family: 'Satisfy', cursive;
+    font-size: 45px;
+}
+
+#home-caption li a {
+    font-family: 'Vollkorn', serif;
+}
+
+
+
+
+
+
+#testi-head h1 {
+    font-family: 'Bowlby One SC', cursive;
+    color: #D3D3D3;
+}
+
+#testi-head p {
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    color: #D3D3D3;
+}
+
+#testi-fontstyle h2 {
+    font-family: 'Vollkorn', serif;
+    color:#B8860B;
+}
+
+#testi-fontstyle p {
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    color: #D3D3D3;
+}
+
+
+/*Gallery CSS*/
+
+/*TOUR CSS*/
+
+#tour-margin {
+    margin-top: 150px;
+    background-image: url("img/gallery/palawan/p1.jpg");
+    background-position: cover;
+}
+
+#tournav-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+    opacity: .5;
+}
+
+#tour-travel-logo {
+    height: 40px;
+    width: 40px;
+
+}
+
+
+/*CSS for reservenow.html*/
+
+#reserve-now{
+    margin-top: 110px;
+    margin-bottom: 50px;
+    height: auto;
+
+}
+
+#terms {
+    height: auto;
+    overflow: scroll;
+}
+
+
+/*CSS FOR TOUR PACKAGES*/
+
+#tour-margin {
+ margin-top: 110px;
+ opacity: .3px;
+
+}
+
+/*.sticky-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;*/
+}
+#back {
+    margin: 10px;
+    margin-left: 10px;
+    text-align: left;
+    text-decoration: none;
+}
+
+#tour-fontstyles h4{
+    font-family: 'Bowlby One SC', cursive;
+}
+
+#tour-fontstyles p{
+    /*font-family: 'Satisfy', cursive;*/
+    font-size: 12px;
+}
+
+.card-title {
+    font-family: 'Vollkorn', serif;
+}
+
+
+/*CSS for message sent*/
+
+#message-sent {
+    margin-top: 250px;
+    height: auto;
+}
+
+/*#sticky-footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+
+}*/
+
+
+
+
+/*MEDIA QUERY*/
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+
+
+#welcome-font li h1{
+    font-size: 25px;
+}
+
+#welcome-font li h3{
+    font-size: 25px;
+}
+
+body{
+    background-color: #24569c;
+    height: auto;
+    width: 100%;
+}
+
+#home-caption li h1{
+    font-size: 25px;
+
+}
+#home-caption li h3{
+    font-size: 25px;
+}
+
+
+
+#testi-head {
+    margin: 10
+}
+
+
+#testi-head h1{
+    font-size: 18px;
+}
+
+#testi-head p{
+    font-size: 18px;
+}
+
+#testi-fontstyle h2{
+    font-size: 18px;
+}
+#testi-fontstyle p{
+    font-size: 18px;
+}
+
+#homecarousel {
+    margin-top: 120px;
+}
+
+.avatar {
+    height: 100px;
+    width: 100px;
+}
+
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+body{
+    background-color: #24569c;
+    height: auto;
+    width: 100%;
+}
+}
